@@ -1,0 +1,15 @@
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scipy>=1.10.0
+jupyter>=1.0.0
+tqdm>=4.65.0
+category_encoders>=2.6.0  # 用于高级类别编码（如Target Encoding）
+joblib>=1.3.0             # 用于模型保存和加载
+colorama>=0.4.6           # 用于命令行彩色输出
+# 可能用的上，后边再看看
+tensorflow>=2.13.0
+keras-tuner>=1.4.0
+torch>=2.0.0
