@@ -96,16 +96,6 @@
 3. 系统会加载模型并预测评分
 4. 显示预测结果，包括预测评分和观影建议
 
-## 常见问题
-
-### 预测失败：特征名称不匹配
-
-如果遇到"The feature names should match those that were passed during fit"错误，请运行以下命令保存特征名称：
-
-```
-python src/save_feature_names.py
-```
-
 或者直接运行`save_feature_names.bat`。
 
 ## 项目结构
@@ -132,3 +122,9 @@ python src/save_feature_names.py
 - 随机森林
 
 这些模型通过平均预测结果来提供最终的评分预测。
+
+## TODO
+
+- 设计 GUI 界面
+- 将文件打包为 exe 文件
+- 优化模型。
